@@ -1,4 +1,4 @@
-// Typing effect
+
 const typewriter = document.querySelector(".typewriter");
 const text = "Mohd Adnan";
 let idx = 0;
@@ -16,7 +16,7 @@ window.addEventListener("load", () => {
   type();
 });
 
-// Scroll animation
+
 ScrollReveal().reveal('.section-title, .about-content, .education-content, .skills-grid, .project-list, .contact-form, .social-icons', {
   origin: 'bottom',
   distance: '30px',
