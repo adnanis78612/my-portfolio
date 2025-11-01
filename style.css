@@ -139,3 +139,31 @@ footer {
 .social-icons a {
   color: #00bfff;
 }
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.project-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.live-link {
+  font-weight: 600;
+  color: #4db5ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.live-link:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
